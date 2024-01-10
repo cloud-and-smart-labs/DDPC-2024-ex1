@@ -1,2 +1,4 @@
-# this file defines the pip packages neede by this application
+# this file defines the pip packages needed by this application
 flask==2.0.2
+# Had to change the version of Werkzeug to resolve an error https://stackoverflow.com/questions/77213053/why-did-flask-start-failing-with-importerror-cannot-import-name-url-quote-fr
+Werkzeug==2.2.2
